@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2C1EA389-8FF9-E189-5B5E-27E9A069A3E7" name="MidValueRating">
+<createdBy>User</createdBy>
+<createdTime>2023-04-13 11:19:15 UTC</createdTime>
+<ownerDesignName>BonusesDentalClinic</ownerDesignName>
+<engineerTo>
+<item key="78BC0CF9-32C0-ECBB-E5A1-0522E49902C4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="MidValueRating_ID" id="EAE7703E-D589-75FC-A05E-F397D9ACF79C">
+<createdBy>User</createdBy>
+<createdTime>2023-04-13 11:19:28 UTC</createdTime>
+<ownerDesignName>BonusesDentalClinic</ownerDesignName>
+<engineerTo>
+<item key="78BC0CF9-32C0-ECBB-E5A1-0522E49902C4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Dentist_ID" id="26329A66-B4F0-D0F0-1302-3A339889ED25">
+<createdBy>User</createdBy>
+<createdTime>2023-04-13 11:19:35 UTC</createdTime>
+<ownerDesignName>BonusesDentalClinic</ownerDesignName>
+<engineerTo>
+<item key="78BC0CF9-32C0-ECBB-E5A1-0522E49902C4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Politeness_MidValGrade" id="B288EE6E-960A-1F41-A08C-197FDC17D2A6">
+<createdBy>User</createdBy>
+<createdTime>2023-04-13 11:19:57 UTC</createdTime>
+<ownerDesignName>BonusesDentalClinic</ownerDesignName>
+<engineerTo>
+<item key="78BC0CF9-32C0-ECBB-E5A1-0522E49902C4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Professionalism_MidValGrade" id="D7708B1D-06E2-8C72-2091-FD93235DD671">
+<createdBy>User</createdBy>
+<createdTime>2023-04-13 11:20:37 UTC</createdTime>
+<ownerDesignName>BonusesDentalClinic</ownerDesignName>
+<engineerTo>
+<item key="78BC0CF9-32C0-ECBB-E5A1-0522E49902C4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Hygiene_MidValGrade" id="E9FE8A58-2693-3278-A669-586D93261D54">
+<createdBy>User</createdBy>
+<createdTime>2023-04-13 11:20:39 UTC</createdTime>
+<ownerDesignName>BonusesDentalClinic</ownerDesignName>
+<engineerTo>
+<item key="78BC0CF9-32C0-ECBB-E5A1-0522E49902C4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Availibility_MidValGrade" id="C8B9DA74-FD32-E100-86EA-6D141C4F7D9F">
+<createdBy>User</createdBy>
+<createdTime>2023-04-13 11:20:40 UTC</createdTime>
+<ownerDesignName>BonusesDentalClinic</ownerDesignName>
+<engineerTo>
+<item key="78BC0CF9-32C0-ECBB-E5A1-0522E49902C4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="User_ID" id="0C6C9454-5178-BFD2-711E-55B780AD6655">
+<createdBy>User</createdBy>
+<createdTime>2023-04-13 11:28:11 UTC</createdTime>
+<generatorID>0C7475E9-48B6-F456-D53E-3329EAC3349E</generatorID>
+<ownerDesignName>BonusesDentalClinic</ownerDesignName>
+<engineerTo>
+<item key="78BC0CF9-32C0-ECBB-E5A1-0522E49902C4" value="true"/>
+</engineerTo>
+<referedAttribute>C4766333-4257-BE1D-5020-F4B6D4A9E8F2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4E826385-E7FD-E265-28AC-EE5B4A38B378" name="MidValueRating PK">
+<createdBy>User</createdBy>
+<createdTime>2023-04-13 11:19:34 UTC</createdTime>
+<ownerDesignName>BonusesDentalClinic</ownerDesignName>
+<engineerTo>
+<item key="78BC0CF9-32C0-ECBB-E5A1-0522E49902C4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EAE7703E-D589-75FC-A05E-F397D9ACF79C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

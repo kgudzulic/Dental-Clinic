@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="BonusesDentalClinic" id="78D7BFA5-BA71-9484-216D-98D60CF08EBE" version="3.5">
+<createdBy>User</createdBy>
+<createdTime>2023-04-13 11:04:06 UTC</createdTime>
+<ownerDesignName>BonusesDentalClinic</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>78D7BFA5-BA71-9484-216D-98D60CF08EBE</designId>
+</OSDM_Design>
